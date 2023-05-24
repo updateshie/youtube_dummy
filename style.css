@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
 
 .sub-button {
     background-color: rgb(196, 7, 7);
@@ -39,3 +42,67 @@
     font-weight: 600;
     margin: 10px 5px;
 }
+
+
+.assignM1 {
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+    /* background-color: aliceblue; */
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+
+}
+
+h3 {
+    /* color: white; */
+}
+
+.uberButton {
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 160px;
+    font-weight: semibold;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.amazonButton {
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 220px;
+    font-size: 18px;
+    font-weight: semi-bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.gitHub {
+    background-color: rgb(46, 164, 79);
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+
+
